@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Walk scalata verso Moto Browniano</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>Random Walk scalata e convergenza al Moto Browniano</h1>
+
+    <p>
+        Questa simulazione mostra una random walk con passi di Rademacher (+1, -1),
+        riscalata con il fattore 1/√n. Aumentando n, il processo discreto tende
+        al Moto Browniano Aritmetico.
+    </p>
+
+    <button onclick="generaGrafico()">Genera simulazione</button>
+
+    <canvas id="grafico" width="900" height="450"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
